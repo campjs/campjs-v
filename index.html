@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" href="favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <script>window["_GOOG_TRANS_EXT_VER"] = "1";</script>
+  <script>
+    // Check if a new cache is available on page load.
+    window.addEventListener('load', function(e) {
+
+    window.applicationCache.addEventListener('updateready', function(e) {
+    if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
+    // Browser downloaded a new app cache.
+    // Swap it in and reload the page to get the new hotness.
+    window.applicationCache.swapCache();
+    window.location.reload();
+    } else {
+    // Manifest didn't change. Nothing new to server.
+    }
+    }, false);
+
+    }, false);
+  </script>
+  <title>CampJS – An event for the JavaScript Community</title>
+  <link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+  <!--<div id="preloader"></div>-->
+  <div id="viewbox">
+    <!--<canvas></canvas>-->
+  </div>
+  <div id="main">
+    <section class="title" data-fit>
+      <header>
+        <h1 class="header">CampJS V</h1>
+        <h2 class="header">May 22 – 25 2015, Somers, Victoria.</h2>
+      </header>
+      <a class="tickets content" href="https://ti.to/campjs/campjs-iv/" target="_blank">CampJS V Tickets!</a>
+    </section>
+    <!--<footer class="content content-item">-->
+      <!--<a href="/">Home</a> |  <a href="#information">Info</a> |  <a href="#talks-and-workshops">Talks &amp; Workshops</a> | <a href="mailto:timo@campjs.com">Contact</a>-->
+    <!--</footer>-->
+    <section class="promo content">
+      <iframe width="600" height="400" src="//www.youtube.com/embed/4n3UMWHQE-o" frameborder="0" allowfullscreen></iframe>
+    </section>
+    <!--<section class="content">-->
+      <!--<div class="content-item">-->
+          <!--<h1><a name="information" href="#information">Information</a></h1>-->
+            <!--<p>-->
+              <!--CampJS creates a unique blend of expert-led, structured content-->
+              <!--and self-directed, unstructured learning. Some content is-->
+              <!--scheduled, but the main area is reserved for hacking. The final-->
+              <!--night is reserved for demos for people to show off what they have-->
+              <!--built or learned at the event.-->
+            <!--</p>-->
+            <!--<p>-->
+              <!--CampJS IV will commence at 3pm Friday on the 31st of October, and-->
+              <!--run through to 9am Monday the 3rd of November. The Camp will be held at <a-->
+                <!--href="https://www.google.com/maps/place/Koonjewarre+Retreat+Centre/@-28.228613,153.270401,17z/data=!3m1!4b1!4m2!3m1!1s0x6b90e6c1b0d34a3d:0xb1b3c5350f23cbd2">-->
+                <!--Koonjewarre Retreat Centre-->
+<!--2806 Gold Coast-Springbrook Rd-->
+<!--Springbrook</a>.-->
+<!--</p>-->
+            <!--<p>-->
+              <!--The venue provides food, drink and comfortable accommodation for-->
+              <!--the duration of the event. You may camp on the grounds if that is-->
+              <!--your wish.-->
+            <!--</p>-->
+
+            <!--<h4>Interstate/International Attendees</h4>-->
+            <!--<p>-->
+              <!--A free bus from the airport will be provided. Fly into Cooloongatta airport around midday, busses will leave between 1 and 2pm. The return bus will get people back to the airport before midday on Monday.-->
+            <!--</p>-->
+            <!--<h4>Locals</h4>-->
+            <!--<p>-->
+            <!--The airport bus will drop by varsity lakes Train station on the way up to the venue. For pickup, be at the train station by 2pm. <em>Note it might be cheaper to fly into Brisbane airport and catch the train down to varsity lakes.</em>-->
+            <!--</p>-->
+            <!--<h4>Code of Conduct</h4>-->
+            <!--<p>CampJS takes pride in being accessible and welcoming for people-->
+            <!--from all walks of life. Participants should to review our <a-->
+            <!--href="code-of-conduct.html">code of conduct</a> prior to attending-->
+          <!--as any violations will be taken seriously.</p>-->
+          <!--</div>-->
+    <!--</section>-->
+
+    <!--<section class="mentors content">-->
+      <!--<h1 class="content-item"><a name="talks-and-workshops" href="#talks-and-workshops">Talks & Workshops (more TBA)</a></h1>-->
+      <!--<ul class="mentor-list">-->
+        <!--<li>-->
+          <!--<figure class="cf">-->
+            <!--<img class="mentor-thumb" src="https://avatars0.githubusercontent.com/u/231686?v=2&s=460" alt=""/>-->
+            <!--<img class="mentor-thumb" src="https://avatars1.githubusercontent.com/u/569817?v=2&s=460" alt=""/>-->
+            <!--<figcaption>-->
+            <!--<h1><a name="learn-webgl" href="#learn-webgl">Learn WebGL</a></h1>-->
+              <!--<h3>Mikola Lysenko & Hugh Kennedy</h3>-->
+              <!--<p>-->
+                <!--WebGL is a powerful graphics API built into most modern desktop/mobile browsers-->
+                <!--which can be used for a variety of graphics intensive applications such as-->
+                <!--cartography, image processing, graphing, medical/scientific visualisation,-->
+                <!--2D/3D games and even general purpose parallel-computing.-->
+              <!--</p>-->
+              <!--<p>-->
+                <!--This workshop will cover the basics of WebGL development from the ground up.-->
+                <!--Starting from shader programming, students will learn how to use the WebGL API-->
+                <!--to create interactive, high performance graphical web applications. Lessons-->
+                <!--follow the nodeschool.io convention of short, guided exercises with interactive-->
+                <!--feedback. A number of expert WebGL developers will be in attendance to guide-->
+                <!--and assist.-->
+              <!--</p>-->
+            <!--</figcaption>-->
+          <!--</figure>-->
+        <!--</li>-->
+        <!--<li>-->
+          <!--<figure class="cf">-->
+            <!--<img class="mentor-thumb" src="https://avatars3.githubusercontent.com/u/376661?v=2&s=460" alt=""/>-->
+            <!--<figcaption>-->
+              <!--<h1><a name="dat-in-action" href="#dat-in-action">dat in action</a></h1>-->
+              <!--<h3>Mathias Buus Madsen</h3>-->
+              <!--<p>-->
+              <!--<a href="https://github.com/maxogden/dat">dat</a> is an ambitious open-->
+                <!--source project that aims to change the way we distribute and-->
+                <!--version data sets, much like git did for source code.-->
+                <!--</p>-->
+              <!--<p>This talk-->
+                <!--will focus around explaining what dat is, why it matters, and-->
+                <!--try to provide some real-world examples of dat in action.-->
+              <!--</p>-->
+              <!--<h3>Bio</h3>-->
+              <!--<p>-->
+              <!--Mathias Buus is a hacker / mad scientist based in Copenhagen, Denmark.-->
+              <!--He is author of more than 200 npm modules and a very active member of the P2P/BitTorrent-->
+              <!--community in Node.js.-->
+              <!--</p>-->
+            <!--</figcaption>-->
+          <!--</figure>-->
+        <!--</li>-->
+        <!--<li>-->
+          <!--<figure class="cf">-->
+            <!--<img class="mentor-thumb" src="https://www.gravatar.com/avatar/1c9054d6242bffd5fd25ec652a2b79cc?s=460" alt=""/>-->
+            <!--<figcaption>-->
+            <!--<h1><a name="learn-libuv" href="#learn-libuv">learn libuv</a></h1>-->
+            <!--<h3>Thorsten Lorenz</h3>-->
+
+              <!--<p><a href="https://github.com/joyent/libuv">libuv</a> is a multi-platform support library with a focus on asynchronous I/O. It was primarily developed for use by Node.js, but it's also used by Mozilla's Rust language, Luvit, Julia, pyuv, and others.</p>-->
+
+              <!--<p>-->
+              <!--libuv is the interface to the underlying system, providing an-->
+              <!--API to perform asynchronous file system operations, access TCP-->
+              <!--or UDP sockets, IPC, listen to file system events and more.-->
+              <!--Additionally it provides an event-loop implementation backed-->
+              <!--by kernel eventing mechanisms like epoll and kqueue.-->
+              <!--</p>-->
+
+              <!--<p><strong>-->
+                <!--It is no overstatement to call libuv the powerhouse of-->
+                <!--Node.js</strong> and thus it is important to understand it-->
+              <!--in order to understand how Node.js works.  The best way to get-->
+              <!--a better understanding is to use libuv as a library in C-->
+              <!--programs.-->
+              <!--</p>-->
+
+              <!--<p>-->
+              <!--This libuv workshop will have you do exactly that. You'll be-->
+              <!--reading files, download webpages and other fun stuff and all-->
+              <!--that via simple C programs.-->
+              <!--</p>-->
+
+              <!--<p>-->
+              <!--After completing the workshop you should have a much better-->
+              <!--understanding of libuv and thus the inner workings of Node.js-->
+              <!--and be equipped to troubleshoot any problems you may run into-->
+              <!--in the future in a more educated manner.-->
+              <!--</p>-->
+
+              <!--<h3>Bio</h3>-->
+
+              <!--<p>Thorsten is a Jazz musician turned developer and is excited about Node.js and its community-->
+              <!--The fast turnaround from idea to working module has proven addictive for him and led to lots of modules which ended up on <a href="https://github.com/thlorenz" >github</a> and/or npm. He also contributes to other awesome open source efforts like  <a href="https://github.com/substack/node-browserify" >browserify</a> to which he added source map support.</p>-->
+
+              <!--<p>Lately he has been focusing on understanding the Node.js stack in more depth, focusing on <a href="https://github.com/thlorenz/libuv-dox" >libuv</a> and <a href="https://github.com/thlorenz/v8-perf" >v8</a>.</p>-->
+
+              <!--<p>Thorsten works for <a href="https://nodesource.com">NodeSource</a>.</p>-->
+
+            <!--</figcaption>-->
+          <!--</figure>-->
+        <!--</li>-->
+        <!--<li>-->
+          <!--<figure class="cf">-->
+            <!--<img class="mentor-thumb" src="https://pbs.twimg.com/profile_images/3336425843/528ad1bd68924113e9db9e99609b6c91_400x400.jpeg" alt=""/>-->
+            <!--<figcaption>-->
+            <!--<h1><a name="psychology-design-best-practices" href="#psychology-design-best-practices">The Psychology of Design Best Practices</a></h1>-->
+            <!--<h3>Tam McKenzie</h3>-->
+
+            <!--<p>-->
+            <!--Design best practices are founded in the psychological study of how the human mind perceives and retains information. Humans have very real limitations when it comes to attention, memory, sight and ability to process logic. These limitations affect the way we need to design interfaces and application response times.-->
+            <!--</p>-->
+
+            <!--<p>-->
+            <!--By understanding these underling principals a system designer is empowered to create better user experiences that are fun, responsive and connecting.-->
+            <!--</p>-->
+
+            <!--<h3>Bio</h3>-->
+
+            <!--<p>-->
+            <!--Tam Mckenzie is a User Experience designer at <a href="http://comparethemarket.com.au">comparethemarket.com.au</a>. She has 3 years of experience with user centered design and 7+ of web and UI design. She is passionate about creating experiences that connect, entertain and fascinate people.  -->
+            <!--</p>-->
+
+            <!--</figcaption>-->
+          <!--</figure>-->
+        <!--</li>-->
+        <!--<li>-->
+          <!--<figure class="cf">-->
+            <!--<img class="mentor-thumb" src="https://avatars3.githubusercontent.com/u/934293?v=2&s=460" alt=""/>-->
+            <!--<figcaption>-->
+              <!--<h1><a name="learn-browserify" href="#learn-browserify">learn browserify</a></h1>-->
+              <!--<h3>Nicolas Bevacqua</h3>-->
+              <!--<p>-->
+                <!--Have an hour or two to spare and you're interested in modules? Then you can't-->
+                <!--miss the opportunity to play around with <a href="http://browserify.org/">Browserify</a> in this workshop! You'll be-->
+                <!--introduced to CommonJS, the module format used in Node.js; Browserify, a tool-->
+                <!--that can be used to bring CommonJS into the browser; and advanced use cases for-->
+                <!--these modules, such as sharing code between the client and the server, swapping-->
+                <!--implementations depending on the platform, and developing truly modular-->
+                <!--codebases!-->
+              <!--</p>-->
+              <!--<h3>Bio</h3>-->
+              <!--<p>-->
+              <!--Nico is an enthusiastic JavaScript hacker based in Buenos Aires,-->
+              <!--Argentina, where he spends his days with the love of his life.-->
+              <!--When he's not hacking as <a href="http://print.io/">print.io</a>’s-->
+              <!--VP of Engineering, or contributing to the open source community as <a-->
+                <!--href="https://github.com/bevacqua">@bevacqua</a>, Nico spends his time-->
+              <!--writing content for <a href="http://blog.ponyfoo.com/">Pony Foo</a>; or his-->
+              <!--upcoming book <a href="http://bevacqua.io/bf">JavaScript Application-->
+                <!--Design</a>. Nico is a happy pony, and you can find him as <a-->
+                <!--href="https://twitter.com/nzgb">@nzgb </a>on Twitter, because </span><a-->
+              <!--href="http://xkcd.com/">xkcd</a>-->
+              <!--</p>-->
+            <!--</figcaption>-->
+          <!--</figure>-->
+        <!--</li>-->
+        <!--<li>-->
+          <!--<figure class="cf">-->
+            <!--<img class="mentor-thumb" src="https://avatars0.githubusercontent.com/u/170299?v=2&s=460" alt=""/>-->
+            <!--<figcaption>-->
+              <!--<h1><a name="learn-duo" href="#learn-duo">Learn Duo</a></h1>-->
+              <!--<h3>Matthew Mueller</h3>-->
+              <!--<p>-->
+              <!--Duo was built to replace <a href="https://github.com/component/component">Component</a>.-->
+              <!--</p>-->
+              <!--<p>-->
+              <!--Duo makes the manifest optional, bundles only the JS and CSS that you need, has built-in github versioning and support for source transforms.-->
+              <!--The goal of Duo is to blend the very best ideas of the Component and Browserify package managers with inspiration coming from Golang.-->
+              <!--</p>-->
+              <!--<p>-->
+              <!--This workshop will get you up and running with Duo. You will learn how Duo scales from single one off-scripts, to building isolated components, to powering your entire front-end application.-->
+              <!--</p>-->
+
+              <!--<p>-->
+              <!--I hope by the end of this workshop you will not only know how to use Duo better but also gain insights into organizing and distributing large client-side applications.-->
+              <!--</p>-->
+
+              <!--<h3>Bio</h3>-->
+
+              <!--<p>-->
+              <!--Matthew Mueller is a full-stack engineer specializing in highly interactive mobile and web applications.-->
+              <!--</p>-->
+
+              <!--<p>-->
+              <!--Author of over 260 open source projects on Github. Dabbler in design using Sketch and Photoshop.-->
+              <!--</p>-->
+
+              <!--<p>-->
+              <!--Founder of <a href="http://lapwinglabs.com">Lapwing Labs</a>. Currently living in San Francisco. Avid traveler and light packer.-->
+              <!--</p>-->
+            <!--</figcaption>-->
+          <!--</figure>-->
+        <!--</li>-->
+        <!--<li>-->
+          <!--<figure class="cf">-->
+            <!--<img class="mentor-thumb" src="https://avatars3.githubusercontent.com/u/894473?v=2&s=460" alt=""/>-->
+            <!--<figcaption>-->
+              <!--<h1><a name="lets-do-docker" href="#lets-do-docker">Let's do Docker!</a></h1>-->
+              <!--<h3>Anna Gerber</h3>-->
+              <!--<p>-->
+              <!--<a href="https://www.docker.com/">Docker</a> is an open platform-->
+              <!--for deploying distributed applications using container-based-->
+              <!--virtualization on Linux. This talk will provide an overview of-->
+              <!--Docker, and will describe how to get started using Docker to-->
+              <!--speed up application development, deployment and testing across-->
+              <!--multiple environments.  We’ll step through building a Dockerized-->
+              <!--web application using NodeJS and <a-->
+                <!--href="http://cesiumjs.org/">Cesium</a>: an open source JS library-->
+              <!--for creating WebGL-based 3D globes and maps.-->
+              <!--</p>-->
+              <!--<h3>Bio</h3>-->
+              <!--<p>-->
+              <!--Anna Gerber is a full-stack developer and open data enthusiast who works on-->
+              <!--web-based research data integration and spatio-statistical analysis services.-->
+              <!--She builds NodeBots for fun.-->
+              <!--</p>-->
+            <!--</figcaption>-->
+          <!--</figure>-->
+        <!--</li>-->
+        <!--<li>-->
+          <!--<figure class="cf">-->
+            <!--<img class="mentor-thumb" src="https://avatars2.githubusercontent.com/u/205256?v=2&s=460" alt=""/>-->
+            <!--<figcaption>-->
+            <!--<h1><a name="nonodebots-robotics-in-your-browser" href="#nonodebots-robotics-in-your-browser">NoNodeBots - Robotics in your Browser</a></h1>-->
+              <!--<h3>Glen Arrowsmith</h3>-->
+              <!--<p>-->
+                <!--<a href="http://nodebots.io/">NodeBots</a> are great but they are even better when they have a UI and you can publish your app on the Chrome Web Store for others to install and use. -->
+              <!--</p>-->
+              <!--<p>-->
+              <!--NoNodeBots takes the Node out of Nodebots and will show you how you can run <a href="https://github.com/rwaldron/johnny-five">Johnny-Five</a> in your browser using <a href="http://browserify.org/">browserify</a> and Chrome Apps without having to run a node instance. -->
+              <!--</p>-->
+              <!--<p>-->
+              <!--This approach unleashes powerful HTML5 tech like:-->
+              <!--</p>-->
+              <!--<p>-->
+              <!--<ul>-->
+                <!--<li>Video processing using the webcam</li>-->
+                <!--<li>p2p remote control using the dataChannel/webRTC</li>-->
+                <!--<li>Telepresense using webRTC</li>-->
+                <!--<li>Speech recognition using the Web Speech API</li>-->
+                <!--<li>Speech synthesis using the Web Speech Synthesis API</li>-->
+                <!--<li>Mesh networking &amp; hive-mind intelligence using dataChannel/webRTC</li>-->
+              <!--</ul>-->
+              <!--</p>-->
+              <!--<p>-->
+              <!--I will be demonstrating this with my robots and talking about the future of NoNodeBots. </p>-->
+              <!--</p>-->
+              <!--<h3>Bio</h3>-->
+              <!--<p>-->
+                <!--Glen Arrowsmith is a Brisbane full stack javascript developer specialising in-->
+                <!--large scale distributed node services and budding entrepreneur with a obsessive-->
+                <!--robotics hobby. For 5+ years he has been mixing the web and robotics to try to-->
+                <!--make them accessible, powerful and affordable and with the recent advancements-->
+                <!--in HTML5/web tech, he feels like he is finally breaking through the brick wall.-->
+                <!--When not building robots he could be found working on terrible HTML5 games,-->
+                <!--building web &amp; phonegap apps, nodebots workshops, contributing to random OS-->
+                <!--projects and playing with his newborn son.-->
+              <!--</p>-->
+            <!--</figcaption>-->
+          <!--</figure>-->
+        <!--</li>-->
+        <!--<li>-->
+          <!--<figure class="cf">-->
+            <!--<img class="mentor-thumb" src="https://avatars0.githubusercontent.com/u/657135?v=2&s=460" alt=""/>-->
+            <!--<img class="mentor-thumb" src="https://avatars0.githubusercontent.com/u/1401037?v=2&s=460" alt=""/>-->
+            <!--<figcaption>-->
+              <!--<h1><a name="performance-tips" href="#performance-tips">Performance Tools + Tips (Server &amp; Browser)</a></h1>-->
+              <!--<h3>Maurice Butler &amp; Kory Nunn</h3>-->
+              <!--<p>-->
+              <!--Changes in the way you structure your code, and how you approach certain problems, can have a huge impact on your application's performance.-->
+              <!--Identifying problems and resolving them can be tricky, luckily there is a plethora of tools for the browser and the server to assist you.-->
+              <!--In this talk we will cover some basics on how to identify, assess, and resolve performance issues, and give you some knowledge and tools to allow you to do the same in both your browser and server side code.-->
+              <!--</p>-->
+
+
+              <!--<h3>Bio - Maurice</h3>-->
+
+              <!--<p>-->
+              <!--tldr; Doer of all things JavaScript &amp;&amp; Node.js-->
+              <!--</p>-->
+              <!--<p>-->
+              <!--Maurice has a passion for, and deep understanding of, JavaScript and the web in general, however his CSS skills have been likened to drawing with crayons…-->
+              <!--He is heavily involved in the JavaScript and Brisbane development community, is an organiser of the BrisJS meetup, helps out where he can with Node Bots and regularly speaks at meetups and conferences.-->
+              <!--He is currently working on large full stack Node.js applications, targeting global payments at scale.-->
+              <!--</p>-->
+
+              <!--<h3>Bio - Kory</h3>-->
+              <!--<p>-->
+              <!--Kory has been writing JavaScript applications for over five one hundredths of a century and has developed a strong opinion for un-opinionated code. He usually pursues the unattainable goal of ‘solving’ UI’s, but has an interest in the whole stack to down to hardware.-->
+              <!--</p>-->
+            <!--</figcaption>-->
+          <!--</figure>-->
+        <!--</li>-->
+
+        <!--<li>-->
+          <!--<figure class="cf">-->
+            <!--<img class="mentor-thumb" src="https://avatars3.githubusercontent.com/u/700871?v=2&s=460" alt=""/>-->
+            <!--<figcaption>-->
+              <!--<h1><a name="node-for-php-developers" href="#node-for-php-developers">Node for PHP Developers</a></h1>-->
+              <!--<h3>Andrew Eddie</h3>-->
+              <!--<p>-->
+              <!--It can sometimes be difficult to switch gears between software-->
+              <!--languages. It can be even more difficult to find help during the-->
+              <!--process. Andrew Eddie recently found this while making a cold shift-->
+              <!--from PHP to Node and in this talk will share some of his journey-->
+              <!--towards becoming productive and proficient again. He'll look at the-->
+              <!--basic syntax differences, how to cope with scoping differences in an-->
+              <!--asynchronous environment, how to adjust object-oriented architectural-->
+              <!--patterns (like "where did my namespaces go?"), and tool equivalents-->
+              <!--for application building, testing and documentation.-->
+              <!--</p>-->
+              <!--<p>-->
+              <!--This talk is suited for any competency level as well as anyone-->
+              <!--generally interested in polyglotism.-->
+              <!--</p>-->
+              <!--<h3>Bio</h3>-->
+              <!--<p>-->
+              <!--Andrew Eddie is a software engineer based in Brisbane and works for-->
+              <!--eBay. He's a veteran Open Source contributor, best known best his-->
+              <!--previous work on the Joomla Content Management System.-->
+              <!--</p>-->
+            <!--</figcaption>-->
+          <!--</figure>-->
+        <!--</li>-->
+
+        <!--<li>-->
+          <!--<figure class="cf">-->
+            <!--<img class="mentor-thumb" src="https://avatars0.githubusercontent.com/u/5573563?v=2&s=460" alt=""/>-->
+            <!--<figcaption>-->
+              <!--<h1><a name="learn-tessel" href="#learn-tessel">Learn Tessel</a></h1>-->
+              <!--<h3>Glen Arrowsmith</h3>-->
+              <!--<p>-->
+                <!--<a href="https://tessel.io">Tessel</a> is a microcontroller that runs JavaScript.-->
+                <!--It's Node-compatible and ships with Wifi built in.-->
+                <!--Use it to easily make physical devices that connect to the web.-->
+              <!--</p>-->
+              <!--<p>-->
+                <!--In just a few lines of JS,-->
+                <!--tweet a photo when someone claps,-->
+                <!--record and playback sound,-->
+                <!--report the temperature to the web,-->
+                <!--connect to bluetooth devices-->
+                <!--control your tv using IR-->
+                <!--endless possibilities (N.B. Technically not endless)-->
+              <!--<p>-->
+              <!--</p>-->
+                <!--No hardware experience needed.-->
+              <!--</p>-->
+            <!--</figcaption>-->
+          <!--</figure>-->
+        <!--</li>-->
+        <!--<li>-->
+          <!--<figure class="cf">-->
+            <!--<img class="mentor-thumb" src="https://avatars1.githubusercontent.com/u/609693?v=2&s=460" alt=""/>-->
+            <!--<figcaption>-->
+              <!--<h1><a name="state-of-browser-testing" href="#state-of-browser-testing">The State of Browser Testing: You can't handle the truth</a></h1>-->
+              <!--<h3>Damon Oehlman</h3>-->
+              <!--<p>-->
+                <!--I assume you have some tests for your JS packages - you are using packages-->
+                <!--right?  You are?  Good, testing for browser environments? Great - well let's-->
+                <!--talk about how some of those tools you think have your back, really don't and-->
+                <!--what you need to do to up your game. In this workshop session, I'll talk about-->
+                <!--how to set up a real testing environment for modern browsers, testing modern-->
+                <!--browser APIs (including WebRTC) and why some of the tools you are using no-->
+                <!--longer represent reality or are just plain hard work.-->
+              <!--</p>-->
+              <!--<h3>Bio</h3>-->
+              <!--<p>-->
+                <!--As a professional wine-taster of node packages (and technology in general),-->
+                <!--Damon is passionate about promoting good software practice through well-crafted-->
+                <!--software and approaches.  Currently, Damon spends most of his time building-->
+                <!--<a href="http://rtc.io/">rtc.io</a> packages and intends to take over the world with-->
+                <!--WebRTC (plan pending).-->
+              <!--</p>-->
+            <!--</figcaption>-->
+          <!--</figure>-->
+        <!--</li>-->
+        <!--<li>-->
+          <!--<figure class="cf">-->
+            <!--<img class="mentor-thumb" src="https://cloud.githubusercontent.com/assets/43438/4635628/89fbeb56-53db-11e4-819e-aeb76757057c.png" alt=""/>-->
+            <!--<figcaption>-->
+              <!--<h1><a name="learn-node-webkit" href="#learn-node-webkit">Learn node-webkit</a></h1>-->
+              <!--<h3>Roger Wang</h3>-->
+              <!--<p>-->
+              <!--<a href="https://github.com/rogerwang/node-webkit">node-webkit</a>-->
+                <!--combines Node.js and <a href="http://www.chromium.org/Home">Chromium</a>-->
+                <!--engine so you can call all Node.js modules directly from DOM.-->
+                <!--It enables a new way of writing applications with all Web-->
+                <!--technologies. This session is an introduction to the-->
+                <!--node-webkit project, including key features, use cases and-->
+                <!--project history. In the workshop, there is lab for the key-->
+                <!--features so you can practice it with Roger.-->
+              <!--</p>-->
+              <!--<h3>Bio</h3>-->
+              <!--<p>-->
+                <!--Roger Wang is the creator and maintainer of the node-webkit project. He works-->
+                <!--for Intel Open Source Technology Center in China. Previously he worked for-->
+                <!--MeeGo and Tizen project. He got PhD degree in HPC at Univ. of Science and-->
+                <!--Technology of China.-->
+              <!--</p>-->
+            <!--</figcaption>-->
+          <!--</figure>-->
+        <!--</li>-->
+        <!--<li>-->
+          <!--<figure class="cf">-->
+            <!--<img class="mentor-thumb" src="https://cloud.githubusercontent.com/assets/43438/4749529/5a9af4dc-5a85-11e4-9086-e463be2b2338.png" alt=""/>-->
+            <!--<figcaption>-->
+              <!--<h1><a name="react-webpack" href="#react-webpack">React + Webpack = Productive, or how I escaped rails</a></h1>-->
+              <!--<h3>Conrad Pankoff</h3>-->
+              <!--<p>-->
+                <!--Strap in for an exciting ride on the good ship webpack! Setting off from deep-->
+                <!--inside the rails asset pipeline, join Conrad as he walks through the steps-->
+                <!--<a href="http://bugherd.com/">BugHerd</a> took to modularise the frontend code of their latest product and throw-->
+                <!--off the shackles of rails.-->
+              <!--</p>-->
+              <!--<p>-->
+                <!--Adventure is certain as you learn about exciting topics like refactoring, build-->
+                <!--tool wars, legacy compatibility, and interoperability with competing wetware-->
+                <!--solutions (read: designers).-->
+              <!--</p>-->
+              <!--<h3>Bio</h3>-->
+              <!--<p>-->
+                <!--Conrad is cursed with being too curious for his own good, which has led him to-->
+                <!--learn about a broad range of topics. During the day he works at <a href="http://bugherd.com/">BugHerd</a> where-->
+                <!--he hacks on JavaScript and Go, obsesses over grammar, and watches cat videos.-->
+                <!--Previously Conrad has worked on machine to machine systems, platform-level-->
+                <!--architecture, identity and authorisation, and reverse engineering.-->
+              <!--</p>-->
+            <!--</figcaption>-->
+          <!--</figure>-->
+        <!--</li>-->
+      <!--</ul>-->
+    <!--</section>-->
+    <!--<section class="content" id="videos">-->
+      <!--<div class="content-item">-->
+        <!--<h1>Sponsors</h1>-->
+        <!--<p>CampJS only happens because of our rad sponsors</p>-->
+        <!--<p></p>-->
+        <!--<p></p>-->
+        <!--<p align="center">-->
+        <!--<a href="http://bugherd.com/" target="_blank"><img src="/sponsors/bh-logo.png" alt="image" style="max-width: 30%"></a><br>-->
+        <!--<a href="http://keystonejs.com/" target="_blank"><img src="https://cloud.githubusercontent.com/assets/43438/4804168/b99d6f7a-5e66-11e4-9087-4d165a28fd9b.png" alt="image" style="max-width: 20%"></a><br>-->
+        <!--<a href="http://www.mongodb.org/" target="_blank"><img src="https://cloud.githubusercontent.com/assets/43438/4747702/838bc512-5a60-11e4-940d-61c33089eff6.png" alt="image" style="max-width: 20%"></a>-->
+        <!--</p>-->
+      <!--</div>-->
+    <!--</section>-->
+
+    <section class="content" id="videos">
+      <h1 class="content-item"><a name="videos-from-campjs-iii" href="#videos-from-campjs-iii">Videos from CampJS III (May 2014)</a></h1>
+      <!--<h3>KoaJS – Johnathan Ong</h3>-->
+      <iframe width="600" height="400" src="//www.youtube.com/embed/bNVcVx8TfPc" frameborder="0" allowfullscreen></iframe>
+      <!--<h3>Quiver.js: A New Server-side Component Architecture – Soares Chen</h3>-->
+      <iframe width="600" height="400" src="//www.youtube.com/embed/jfaF52FBxEg" frameborder="0" allowfullscreen></iframe>
+      <!--<h3>BEM for JS – Vladimir Grinenko</h3>-->
+      <iframe width="600" height="400" src="//www.youtube.com/embed/2r72EjALq2s" frameborder="0" allowfullscreen></iframe>
+      <!--<h3>Interfacing with mobile IOT Nodes – Michael Schloh von Bennewitz</h3>-->
+      <iframe width="600" height="400" src="//www.youtube.com/embed/1BBOz--NBmw" frameborder="0" allowfullscreen></iframe>
+      <!--<h3>WebGL Quickstart with Three.JS – Alex Mackey</h3>-->
+      <iframe width="600" height="400" src="//www.youtube.com/embed/bTWb3qqffHI" frameborder="0" allowfullscreen></iframe>
+      <!--<h3>Make Haste: Fast Track to Functional Thinking – Katie Miller</h3>-->
+      <iframe width="600" height="400" src="//www.youtube.com/embed/o3JMxnnTZ64" frameborder="0" allowfullscreen></iframe>
+      <!--<h3>Normalize.IO: The End of Package Management for the Web – Jonathan Ong</h3>-->
+      <iframe width="600" height="400" src="//www.youtube.com/embed/qILwHnSUEO4" frameborder="0" allowfullscreen></iframe>
+      <!--<h3>Web RTC &amp; Web Components, a match made in heaven — Benjamin Lutpon &amp; Damon Oehlman</h3>-->
+      <iframe width="600" height="400" src="//www.youtube.com/embed/CDT93nQHIpc" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+  <footer class="content content-item">
+    <a href="/">Home</a> | <a href="/code-of-conduct.html">Code of Conduct</a> | <a href="https://twitter.com/campjsnews">Twitter</a> | <a href="https://plus.google.com/communities/106906604683614333625">G+</a> | <a href="mailto:timo@campjs.com">Contact</a>
+  </footer>
+  <!--<footer class="content content-item">-->
+    <!--Site crafted using <a href="http://stack.gl">stackgl</a> by <a href="http://hughsk.io/">Hugh Kennedy</a>-->
+  <!--</footer>-->
+  </div>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-37242312-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+  <script charset="utf-8" src="bundle.js"></script>
+</body>
+</html>
