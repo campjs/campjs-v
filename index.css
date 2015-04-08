@@ -98,7 +98,11 @@ body:not(#home) #content {
 }
 
 #content section {
-  padding: 60px;
+  padding: 30px 60px;
+}
+
+#content p, #content li {
+  font-size: 0.9em;
 }
 
 #content nav {
@@ -188,4 +192,23 @@ h1 a, h2 a, h3 a, h4 a {
 
 article {
   margin-top: 1em;
+}
+
+figure {
+  padding: 0;
+  margin: 0;
+}
+
+.mentor .mentor-thumb {
+  max-width: 160px;
+  max-height: 160px;
+  float: right;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  border-radius: 100px;
+}
+
+.mentor {
+  clear: both;
 }
