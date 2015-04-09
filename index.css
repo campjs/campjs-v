@@ -79,8 +79,12 @@ header#mainHeader {
   font-size: 2rem;
 }
 
-#content {
+#mainHeader + * {
   margin-top: -80px;
+}
+
+.content {
+  margin-top: 40px;
   width: 800px;
   background: #f7f7e9;
   position: relative;
@@ -93,24 +97,29 @@ body:not(#home) #mainHeader {
   margin-top: -40vh;
   position: absolute;
 }
-body:not(#home) #content {
+body:not(#home) .content {
   margin-top: 30vh;
 }
 
-#content section {
+.content section {
   padding: 30px 60px;
+  padding-top: 0px;
 }
 
-#content p, #content li {
+.content section:first-of-type {
+  padding-top: 60px;
+}
+
+.content p, .content li {
   font-size: 0.9em;
 }
 
-#content nav {
+.content nav {
   width: 100%;
   display: flex;
 }
 
-#content nav a {
+.content nav a {
   flex: auto;
   text-align: center;
   padding: 1em;
@@ -119,7 +128,7 @@ body:not(#home) #content {
   font-weight: bold;
 }
 
-#content nav a:hover {
+.content nav a:hover {
   background: #f7f7e9;
 }
 
@@ -153,25 +162,25 @@ h1 a, h2 a, h3 a, h4 a {
   color: #40362d;
 }
 
-#content img {
+.content img {
   max-width: 70%;
 }
 
-#content iframe {
+.content iframe {
   margin-bottom: 1em;
 }
 
 
-#content footer nav {
+.content footer nav {
   display: flex;
 }
 
-#content footer nav a {
+.content footer nav a {
   flex: auto;
 }
 
 @media screen and (max-width: 850px) {
-  header#mainHeader, #content {
+  header#mainHeader, .content {
     width: 100%;
   }
 
@@ -179,12 +188,12 @@ h1 a, h2 a, h3 a, h4 a {
     font-size: 3.5rem;
   }
 
-  #content img {
+  .content img {
     max-width: 100%;
   }
 }
 
-#content iframe {
+.content iframe {
   margin: 0 auto;
   margin-top: 3em;
   display: block;
