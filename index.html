@@ -167,7 +167,7 @@
       <figure class="mentor">
         <img class="mentor-thumb" src="https://avatars2.githubusercontent.com/u/66834?v=3&s=160" alt=""/>
         <figcaption>
-          <h2>Matt McKegg</h2>
+        <h2><a href="#matt-mckegg" name="matt-mckegg">Matt McKegg</a></h2>
           <p>
             A JavaScript hacker and backyard musician and from Wellington, NZ.
             Lover of all things open and modular. I spend most of my time
@@ -185,7 +185,7 @@
       <figure class="mentor">
         <img class="mentor-thumb" src="https://avatars2.githubusercontent.com/u/612020?v=3&s=160" alt=""/>
         <figcaption>
-          <h2><a name="jess-telford" name="jess-telford">Jess Telford</a></h2>
+          <h2><a href="#jess-telford" name="jess-telford">Jess Telford</a></h2>
           <p>
             A lover of JS, advocate of Bitcoin, hacker of ES6, and a constant learner, Jess
             recently returned from an eye opening year in Silicon Valley, bringing back the
@@ -203,7 +203,7 @@
       <figure class="mentor">
         <img class="mentor-thumb" src="https://avatars2.githubusercontent.com/u/569817?v=3&s=160" alt=""/>
         <figcaption>
-          <h2><a name="hugh-kennedy" name="hugh-kennedy">Hugh Kennedy</a></h2>
+          <h2><a href="#hugh-kennedy" name="hugh-kennedy">Hugh Kennedy</a></h2>
           <p>
             Hugh is an Australian frontend developer and computer graphics enthusiast.
             He currently works with NodeSource, focusing his efforts on data visualisation
@@ -242,7 +242,7 @@
       <figure class="mentor">
         <img class="mentor-thumb" src="https://avatars1.githubusercontent.com/u/479055?v=3&s=160" alt=""/>
         <figcaption>
-          <h2>Conrad Pankoff</h2>
+        <h2><a href="#conrad-pankoff" name="conrad-pankoff">Conrad Pankoff</a></h2>
           <p>
             Conrad works at Macropod Software, hacking on Go and JavaScript. He
             enjoys sunsets, long walks on the beach, and chilli dogs.
@@ -316,7 +316,7 @@
       </figure>
     </section>
   </article>
-  <article class="content">
+  <article class="content activities">
     <section>
 
       <h1><a name="activities" href="#activites">Activities</a></h1>
@@ -529,5 +529,20 @@
     </nav>
   </footer>
   </article>
+  <script>
+    // total hack to insert pics in activities
+    [].slice.call(document.querySelectorAll('.activities h3 a'))
+    .map(function(el) { return [el, document.querySelector(".mentor a[name=" +el.href.split('#').pop()+"]")] })
+    .filter(function(t) { return t[1]} )
+    // whatever
+    .map(function(t) { return [ t[0], t[1].parentElement.parentElement.parentElement.querySelector('img')]})
+    .forEach(function(t) {
+      var img = t[1].cloneNode(true)
+      var link = t[0].cloneNode()
+      link.appendChild(img)
+      var container = t[0].parentElement
+      container.appendChild(link)
+    })
+  </script>
 </body>
 </html>

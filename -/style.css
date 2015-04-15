@@ -226,7 +226,7 @@ figure {
   margin: 0;
 }
 
-.mentor .mentor-thumb {
+.mentor-thumb {
   max-width: 160px;
   max-height: 160px;
   float: right;
@@ -238,4 +238,9 @@ figure {
 
 .mentor {
   clear: both;
+}
+
+.activities h2 {
+  font-size: 2em;
+  margin-top: 2em;
 }
