@@ -40,6 +40,10 @@ a {
   font-weight: bolder;
 }
 
+li {
+  margin-bottom: 0.4em;
+}
+
 header#mainHeader {
   display: block;
   height: 1000px;
