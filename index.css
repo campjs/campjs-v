@@ -114,6 +114,10 @@ body:not(#home) .content {
   padding-top: 60px;
 }
 
+#promo {
+  padding-top: 0px;
+}
+
 .content p, .content li {
   font-size: 0.9em;
 }
