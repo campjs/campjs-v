@@ -41,6 +41,10 @@ a {
   font-weight: bolder;
 }
 
+li {
+  margin-bottom: 0.4em;
+}
+
 header#mainHeader {
   display: block;
   height: 1000px;
@@ -243,4 +247,14 @@ figure {
 .activities h2 {
   font-size: 2em;
   margin-top: 2em;
+}
+
+.activities-preview li {
+  list-style-type: none;
+  display: inline;
+}
+
+.activities-preview li:after {
+  display: inline;
+  content: ', ';
 }

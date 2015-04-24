@@ -230,3 +230,12 @@ figure {
   font-size: 2em;
   margin-top: 2em;
 }
+
+.activities-preview li {
+  list-style-type: none;
+  display: inline;
+}
+.activities-preview li:after {
+  display: inline;
+  content: ', ';
+}
