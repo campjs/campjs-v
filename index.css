@@ -243,3 +243,35 @@ figure {
   display: inline;
   content: ', ';
 }
+
+.logogroup {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: block;
+  height: 3rem;
+  text-align: center;
+  width: 25%;
+  margin: 0 1rem;
+}
+
+.logo img {
+  height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.logo.nicta {
+  height: 5rem;
+  background: white;
+  border-radius: 0.5rem;
+}
+
+.logogroup.large .logo {
+  width: 40%;
+}
