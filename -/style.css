@@ -262,3 +262,45 @@ figure {
   display: inline;
   content: ', ';
 }
+
+.logogroup {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.logo {
+  display: block;
+  height: 3rem;
+  text-align: center;
+  width: 25%;
+  margin: 0 1rem;
+}
+
+.logo img {
+  height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.logo.nicta {
+  height: 5rem;
+  background: white;
+  border-radius: 0.5rem;
+}
+
+.logogroup.large .logo {
+  width: 40%;
+}
