@@ -272,7 +272,6 @@ figure {
 .logo img {
   height: 100%;
   max-width: 100%;
-  object-fit: contain;
 }
 
 .logo.nicta {
