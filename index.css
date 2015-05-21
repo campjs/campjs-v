@@ -261,10 +261,17 @@ figure {
   overflow: hidden;
 }
 
+.logogroup.large .logo {
+  width: 40%;
+}
+
+.logogroup.medium .logo {
+  width: 30%;
+}
+
 .logo img {
   height: 100%;
   max-width: 100%;
-  object-fit: contain;
 }
 
 .logo.nicta {
@@ -273,11 +280,13 @@ figure {
   border-radius: 0.5rem;
 }
 
+.logogroup.medium .logo.zendesk {
+  height: 5rem;
+  width: 5rem;
+}
+
 .logo.prismatik {
   background: black;
   border-radius: 4px;
 }
 
-.logogroup.large .logo {
-  width: 40%;
-}
